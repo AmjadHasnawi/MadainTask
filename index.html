@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Madain Task</title>
+    <meta name="keywords" content=">Madain Task" />
+    <meta name="description" content=">Madain Task" />
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <table>
+            <tr>
+                <td><div onclick="myTurn(this, 0)" id="div0"></div></td>
+                <td><div onclick="myTurn(this, 1)" id="div1"></div></td>
+                <td class="right-edge"><div id="div2" onclick="myTurn(this, 2)"></div></td>
+            </tr>
+            <tr>
+                <td><div id="div3" onclick="myTurn(this, 3)"></div></td>
+                <td><div id="div4" onclick="myTurn(this, 4)"></div></td>
+                <td class="right-edge" onclick="myTurn(this, 5)"><div id="div5"></div></td>
+            </tr>
+            <tr>
+                <td class="bottom-edge"><div id="div6" onclick="myTurn(this, 6)"></div></td>
+                <td class="bottom-edge"><div id="div7" onclick="myTurn(this, 7)"></div></td>
+                <td class="corner-edge"><div id="div8" onclick="myTurn(this, 8)"></div></td>
+            </tr>
+          </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

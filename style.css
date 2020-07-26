@@ -1,0 +1,41 @@
+#main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+  }
+  
+   td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  }
+
+  .right-edge {
+    border-bottom: 1px solid #ddd;
+    border-right: none;
+  }
+  .bottom-edge {
+    border-bottom: none;
+    border-right: 1px solid #ddd;
+  }
+
+  .corner-edge {
+    border-bottom: none;
+    border-right: none;
+  }
+
+  td div {
+      width: 100px;
+      height: 100px;
+  }
+
+  div {
+      font-size: 100px;
+  }
